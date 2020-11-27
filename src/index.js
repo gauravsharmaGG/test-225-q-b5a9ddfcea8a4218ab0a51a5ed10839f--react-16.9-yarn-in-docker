@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './index.scss';
 
 // BACKEND ENDPOINT BASE URL
 console.log(process.env.REACT_APP_API_URL);
